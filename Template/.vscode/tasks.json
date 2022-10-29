@@ -1,0 +1,75 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "windows": {
+                "command": "make build"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build-TV",
+            "type": "shell",
+            "windows": {
+                "command": "make build-TV"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build-Debug",
+            "type": "shell",
+            "windows": {
+                "command": "make build-debug"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "download",
+            "type": "shell",
+            "windows": {
+                "command": "make download"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "download-TV",
+            "type": "shell",
+            "windows": {
+                "command": "make download-TV"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "debug",
+            "type": "shell",
+            "windows": {
+                "command": "make debug"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "debug-gui",
+            "type": "shell",
+            "windows": {
+                "command": "make debug-gui"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "clear",
+            "type": "shell",
+            "windows": {
+                "command": "make clear"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
